@@ -45,7 +45,7 @@ module.exports = {
       template: "./src/index.html",
     }),
     new EnvironmentPlugin({
-      API_URI: "https://bookmovie-server.vercel.app",
+      API_URI: "http://localhost:8080/",
     }),
   ],
   resolve: {
